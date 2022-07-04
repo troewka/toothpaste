@@ -1,0 +1,423 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+}
+.top {
+	padding: 15px 0 0 0;
+}
+.container {
+	max-width: 1296px;
+	margin: 0 auto;
+}
+.top__row {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.top__logo {
+}
+.top__clock {
+	padding: 0 0 0 65px;
+	background: url(../image/time.svg) left no-repeat;
+	height: 45px;
+	line-height: 45px;
+	align-self: center;
+	font-weight: 400;
+	font-size: 15px;
+}
+.top__email {
+	padding: 0 0 0 65px;
+	background: url(../image/email.svg) left no-repeat;
+	height: 45px;
+	line-height: 45px;
+	align-self: center;
+	font-weight: 400;
+	font-size: 15px;
+}
+.top__tell {
+	padding: 0 0 0 65px;
+	background: url(../image/tell.svg) left no-repeat;
+	height: 45px;
+	line-height: 45px;
+	align-self: center;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+
+
+
+.nav {
+}
+.menu {
+	padding: 34px 0 0 0;
+}
+.menu__row {
+}
+.menu__line {
+	padding: 21px 0;
+	background: #7255CE;
+	border-radius: 60px;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.menu__line a{
+	color: #fff;
+}
+
+ul.menu__line{
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.slider {
+	padding: 71px 0 0 0;
+}
+.slider__row {
+	position: relative;
+}
+.slider__image {
+	max-width: 1296px;
+}
+
+.slider__image img {
+	max-width: 100%;
+}
+
+.slider__text {
+	position: absolute;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 49px;
+	color: #FFFFFF;
+	margin: 0 0 22px 0;
+	width: 305px;
+
+
+}
+
+.slider__content{
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 110px;
+
+}
+
+
+.slider__button {
+	position: absolute;
+	background: #50DD89;
+	box-shadow: 0px 10px 20px rgba(80, 221, 137, 0.3);
+	border-radius: 40px;
+	padding: 20px 65px;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 21px;
+	margin: 150px 0 0 0;
+
+}
+
+.slider__button a{
+	color: #fff;
+}
+
+
+
+
+.production {
+	padding: 0 0 71px 0;
+
+}
+
+.production__title {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 37px;
+	text-align: center;
+	margin: 0 0 50px 0;
+}
+.production__row {
+	display: flex;
+	margin: 0px -12px;
+	justify-content: space-between;
+}
+.production__toothpaste {
+	padding: 0px 12px;
+	flex: 0 1 25%;
+	text-align: center;
+}
+
+
+.production__image {
+	background: #F7F7F7;
+	border-radius: 30px;
+	padding: 36px;
+	margin: 0 0 21px 0;
+}
+.production__subtitle {
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 21px;
+	text-align: center;
+	margin: 0 0 21px 0;
+}
+.production__price {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	color: #7255CE;
+	text-align: center;
+	margin: 0 0 21px 0;
+}
+
+.production__button {
+	display: inline-flex;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 18px;
+	background: #50DD89;
+	box-shadow: 0px 10px 20px rgba(80, 221, 137, 0.3);
+	border-radius: 40px;
+	padding: 11px 39px;
+
+}
+
+.production__button a{
+	color: #fff;
+}
+
+
+
+.company {
+	padding: 100px 0;
+	background: rgba(114, 85, 206, 0.1);
+}
+
+.company__row {
+	display: flex;
+}
+.company__image {
+	flex: 1 1 706px;
+}
+
+.company__image img{
+	border-radius: 20px;
+}
+
+.company__text {
+	padding: 0 0 0 130px;
+}
+.company__title {
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 37px;
+	margin: 0 0 29px 0;
+}
+.company__subtext {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22px;
+	text-align: justify;
+}
+
+
+
+.icon {
+	padding: 71px 0;
+}
+
+.icon__body{
+	max-width: 1203px;
+	margin: 0 auto;
+}
+
+.icon__row {
+	display: flex;
+	justify-content: space-around;
+	margin: 0px -58.5px;
+}
+.icon__info {
+	padding: 0px 58.5px;
+	flex: 0 1 25%;
+	text-align: center;
+
+}
+.icon__image {
+	display: inline-flex;
+	padding: 63px 61px;
+	border-radius: 50%;
+	background: #EDF7FE;
+	text-align: center;
+}
+.icon__text {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	padding: 20px 0;
+}
+
+
+
+.contacts {
+	padding: 100px 0;
+	background: #F7F7F7;
+}
+
+.contacts__body{
+
+
+}
+
+.contacts__row {
+	display: flex;
+	justify-content: space-between;
+
+}
+.contacts__card {
+	align-self: center;
+}
+.contacts__title {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 37px;
+	margin: 0 0 44px 0;
+}
+.contacts__list {
+
+}
+
+.contacts__list li:nth-child(1){
+	background: url(../image/phone_footer.svg) left no-repeat;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 45px;
+}
+
+.contacts__list li:nth-child(2){
+	background: url(../image/message_footer.svg) left no-repeat;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 45px;
+}
+
+.contacts__list li:nth-child(3){
+	background: url(../image/time_footer.svg) left no-repeat;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 45px;
+}
+
+.contacts__list li{
+	padding: 0 0 0 65px;
+	margin: 0 0 30px 0;
+}
+
+.contacts__image {
+	max-width: 856px;
+}
+
+.contacts__image img {
+	max-width: 100%;
+	border-radius: 30px;
+
+}
+
+
+
+
+.footer {
+}
+.basement {
+	padding: 71px 0 50px 0;
+	background: #222222;
+}
+
+.basement__row {
+	display: flex;
+	flex-direction: column;
+}
+.basement__title {
+	display: flex;
+	border-bottom: 1px solid #555555;
+	padding: 0 0 50px 0;
+}
+.basement__image {
+}
+.basement__list {
+	display: flex;
+	flex: 0 1 100%;
+	align-self: center;
+	justify-content: space-between;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 18px;
+	padding: 0 0 0 134px;
+}
+
+.basement__list a{
+	color: #FFFFFF;
+}
+
+
+.basement__footer {
+}
+.basement__list2 {
+	padding: 50px 0 0 0;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	color: #999999;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.basement__list2 li{
+
+}
